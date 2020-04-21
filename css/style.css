@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 body {
     background: black;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
+}
+
+html,
+.fullscreen {
     display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 .main {
@@ -12,6 +17,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
+    text-align: center;
 }
 
 .heading {
@@ -39,13 +46,4 @@ body {
     padding: 10px;
     font-size: 50px;
     text-shadow: 0px 0px 10px cyan;
-}
-
-html,
-.fullscreen {
-    display: flex;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
 }
